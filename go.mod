@@ -7,21 +7,22 @@ require (
 	github.com/go-ozzo/ozzo-validation/v4 v4.3.0
 	github.com/go-sql-driver/mysql v1.6.0
 	github.com/google/uuid v1.3.0
+	github.com/hashicorp/go-retryablehttp v0.7.0
 	github.com/jmoiron/sqlx v1.3.4
-	github.com/julienschmidt/httprouter v1.3.0 // indirect
+	github.com/julienschmidt/httprouter v1.3.0
 	github.com/logzio/logzio-go v1.0.3
 	github.com/mattn/go-sqlite3 v1.14.12
 	github.com/minio/minio-go/v7 v7.0.23
 	github.com/pkg/errors v0.9.1
-	github.com/schollz/peerdiscovery v1.6.11 // indirect
-	github.com/sendgrid/rest v2.6.9+incompatible // indirect
 	github.com/sendgrid/sendgrid-go v3.11.1+incompatible
 	github.com/sethvargo/go-envconfig v0.5.0
 	github.com/spf13/cobra v1.4.0
 	github.com/stretchr/testify v1.7.1
-	github.com/suborbital/atmo v0.4.6
-	github.com/suborbital/grav v0.5.1-0.20220401153127-41df567a4501
+	github.com/suborbital/atmo v0.4.4
+	github.com/suborbital/grav v0.5.0
 	github.com/suborbital/reactr v0.15.1
+	github.com/suborbital/sat v0.1.2
+	github.com/suborbital/subo v0.4.2-0.20220418134103-a0419f948250
 	github.com/suborbital/vektor v0.5.3-0.20220302142328-fb4fc3951eb1
 	github.com/testcontainers/testcontainers-go v0.12.0
 	gocloud.dev v0.24.0
@@ -89,9 +90,13 @@ require (
 	github.com/golang/snappy v0.0.3 // indirect
 	github.com/google/cel-go v0.7.3 // indirect
 	github.com/google/go-cmp v0.5.7 // indirect
+	github.com/google/go-github/v41 v41.0.0 // indirect
+	github.com/google/go-querystring v1.1.0 // indirect
 	github.com/google/wire v0.5.0 // indirect
 	github.com/googleapis/gax-go/v2 v2.1.1 // indirect
 	github.com/gorilla/websocket v1.5.0 // indirect
+	github.com/hashicorp/go-cleanhttp v0.5.1 // indirect
+	github.com/hashicorp/go-version v1.4.0 // indirect
 	github.com/huandu/xstrings v1.3.2 // indirect
 	github.com/imdario/mergo v0.3.12 // indirect
 	github.com/inconshreveable/mousetrap v1.0.0 // indirect
@@ -149,7 +154,9 @@ require (
 	github.com/rs/xid v1.2.1 // indirect
 	github.com/russross/blackfriday/v2 v2.1.0 // indirect
 	github.com/samfoo/ansi v0.0.0-20160124022901-b6bd2ded7189 // indirect
+	github.com/schollz/peerdiscovery v1.6.11 // indirect
 	github.com/segmentio/backo-go v1.0.0 // indirect
+	github.com/sendgrid/rest v2.6.9+incompatible // indirect
 	github.com/shirou/gopsutil/v3 v3.21.6 // indirect
 	github.com/shopspring/decimal v1.2.0 // indirect
 	github.com/shurcooL/sanitized_anchor_name v1.0.0 // indirect
